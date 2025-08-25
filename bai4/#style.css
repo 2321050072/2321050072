@@ -1,0 +1,19 @@
+h1{
+    background-color: darkgray;
+}
+
+h2{
+    background-color: green;
+}
+
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: red;
+    width: 50%;
+    margin: 50px auto;
+}
+.box3{
+    background-color: chartreuse;
+}
