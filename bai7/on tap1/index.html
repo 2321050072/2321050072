@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Đăng Ký Facebook</title>
+  <style>
+    body {
+      background-color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .form-container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 400px;
+    }
+
+    .logo {
+      font-size: 36px;
+      color: blue;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color:grey;
+      margin-bottom: 20px;
+    }
+
+    .row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .row input, .row select {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid white;
+      border-radius: 6px;
+    }
+
+    .full-width {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid white;
+      border-radius: 6px;
+    }
+
+    .gender-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .gender-row label {
+      flex: 1;
+      text-align: center;
+    }
+
+    .note, .terms {
+      font-size: 12px;
+      color: grey;
+      margin-bottom: 10px;
+    }
+
+    .signup-btn {
+      background-color: green;
+      color: rgb(255, 255, 255);
+      padding: 12px;
+      width: 100%;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .login-link {
+      text-align: center;
+      margin-top: 15px;
+      color: #1877f2;
+      text-decoration: underline;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <div class="logo">facebook</div>
+    <h2>Create a new account</h2>
+    <div class="subtitle">It's quick and easy.</div>
+
+    <div class="row">
+      <input type="text" placeholder="First name">
+      <input type="text" placeholder="Surname">
+    </div>
+
+    <div class="row">
+      <select><option>15</option></select>
+      <select><option>Sep</option></select>
+      <select><option>2025</option></select>
+    </div>
+
+    <div class="gender-row">
+        <label><input type="radio" name="gender"> Female</label>
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> custom</label>
+    
+    </div>
+
+    <input class="full-width" type="text" placeholder="Mobile number or email address">
+    <input class="full-width" type="password" placeholder="New password">
+
+    <div class="note">
+      People who use our service may have uploaded your contact information to Facebook. Learn more.
+    </div>
+    <div class="terms">
+      By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.
+    </div>
+
+    <button class="signup-btn">Sign Up</button>
+    <div class="login-link">Already have an account?</div>
+  </div>
+</body>
+</html>
